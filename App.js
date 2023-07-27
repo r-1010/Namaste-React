@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const title = React.createElement(
     "div", {
     id: "parent"
@@ -8,7 +11,7 @@ const title = React.createElement(
         },
             [
                 React.createElement("h1", {}, "This is h1 tag!"),
-                React.createElement("h2", {}, "This is h2 tag!")
+                React.createElement("h2", {}, "Hello h1 tag")
             ]
         ),
         React.createElement("div", {
